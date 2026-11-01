@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Redaction+10', serif ;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box{
+    width : 300px;
+    background-color: white;
+    height: 400px;
+    border-radius: 5%;
+    margin: 10px;
+    border: 1px solid;
+    padding: 10px;
+}
+.b {
+    width: 63px;
+    height: 25px;
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b p {
+    margin: 0;
+}
+
+.discount {
+    width: 50px;
+    background-color: green;
+    height: 25px;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 3px;
+}
+.box img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.box h6{
+    color: darkgray;
+    text-align: left;
+    margin-top: 20px;
+}
+.box p{
+    text-align: left;
+    font-size: 25px;
+}
+.price h5 {
+    margin: 0;
+    font-size: 22px;
+}
+.button{
+    background-color: chartreuse;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.price h5 {
+    margin: 0;
+}
+.price del {
+    color: gray;
+    font-size: 12px;
+    
+}
